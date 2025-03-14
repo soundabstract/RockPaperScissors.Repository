@@ -84,7 +84,7 @@ int rpsShootDiff(int userChoice,int compChoice)
 	{
 		std::cout << "Scissors versus Rock!\n";
 		return -1;
-	} else if(userChoice == 3 && compChoice == 2) //scissor vs paper
+	} else if(userChoice == 3 && compChoice == 2) //scissors vs paper
 	{
 		std::cout << "Scissors versus Paper!\n";
 		return 1;
